@@ -1,0 +1,50 @@
+.Resume-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%); */
+  background: linear-gradient(135deg, #1d2671, #6a0dad);
+}
+.Resume-title {
+  font-family: 'Ubuntu';
+  text-align: center;
+  text-decoration: underline;
+}
+.my-formal-bio {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+}
+.resume-options {
+  width: 1%;
+  transition: all 0.4s ease-in-out;
+  padding-block: 24px;
+  padding-inline: 24px;
+  color: #000;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: 'open sans';
+}
+.resume-options:hover {
+  width: 100%;
+  background: linear-gradient(135deg, #c33764, #1d2671);
+  color: #fff;
+}
+.icons {
+  margin-block: 24px;
+  margin-inline: 24px;
+  /* font-size: 25px; */
+}
+.selected {
+  background: linear-gradient(-45deg, #c33764, #1d2671);
+  width: 100%;
+  color: #fff;
+}
+.bg-new {
+  background: linear-gradient(-45deg, #c33764, #1d2671);
+  /* width: 100%; */
+  color: #fff;
+}

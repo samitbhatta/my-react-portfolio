@@ -1,0 +1,124 @@
+.heroSection {
+  /* height: 100dvh;
+  width: 100%; */
+
+  clip-path: polygon(0 0, 100% 0, 100% 53%, 53% 72%, 0 53%);
+  position: relative;
+  width: 100dvw;
+  /* height: 100dvh; */
+  /* background: linear-gradient(135deg, #d8b5ff, #1eae98); */
+  background: linear-gradient(135deg, #c33764, #1d2671);
+  /* filter: blur(25px); */
+  /* opacity: 0.85; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  z-index: 1;
+  height: auto; /* Remove fixed height */
+  min-height: 100vh; /* Keep full screen if necessary */
+  margin-bottom: -5px;
+
+  /* padding-top: 60px; */
+}
+
+.hero-items {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20rem;
+  align-items: center;
+  gap: 5rem;
+}
+/*.profile img {*/
+/* padding-bottom: 30px; */
+/* border: 5px solid white; /* Example: white border of 5px thickness */
+/* border-radius: 12px;  Optional: rounded corners */
+/* padding: 10px;
+} */
+.profile {
+  padding-top: 6rem;
+  /* padding-bottom: 10px; */
+}
+
+.custom-img {
+  width: 400px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  object-fit: contain; /* aspect ratio will be maintain*/
+  padding-bottom: 10px;
+}
+.intro {
+  text-align: center;
+  padding-top: 52px;
+}
+.name {
+  color: #fffb00;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.Im-text {
+  font-family: 'Ubuntu';
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  /* text-align: center;
+  justify-content: center; */
+}
+.description {
+  font-family: 'open sans';
+  color: #fff;
+  font-size: 1.4rem;
+  padding-bottom: 20px;
+}
+
+.job-title {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.hire-me {
+  font-size: 1.3rem;
+  font-family: 'Ubuntu';
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid white;
+  /* width: 20%; */
+  padding: 5px 40px;
+  color: #fff;
+  margin-inline: 12px;
+  transition: all 0.3s ease-in-out;
+  animation: Anim 1s ease-in-out infinite;
+}
+.hire-me:hover {
+  transform: translateY(-5px);
+  background-color: #fffb00;
+  color: #1c1c1c;
+}
+.resume {
+  font-size: 1.3rem;
+  font-family: 'Ubuntu';
+  border-radius: 20px;
+  background: red;
+  border: 2px solid white;
+  margin-inline: 12px;
+  color: #fff;
+  padding: 5px 30px;
+  transition: all 0.3s ease-in-out;
+}
+.resume:hover {
+  transform: translateY(-5px);
+}
+@keyframes Anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

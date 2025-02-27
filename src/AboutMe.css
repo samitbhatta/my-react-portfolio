@@ -1,0 +1,40 @@
+.about-me-section {
+  margin-top: 0 !important;
+  width: 70%;
+  margin-inline: auto;
+}
+.about-me-text {
+  font-family: 'Ubuntu';
+  text-align: center;
+  text-decoration: underline;
+}
+.why-text {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+}
+.some-text-about-me {
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  text-align: justify;
+}
+.highlights {
+  font-family: 'Ubuntu';
+  padding-block: 12px;
+}
+.few-text {
+  font-family: 'Ubuntu';
+  font-weight: 900;
+  font-size: 1.5rem;
+  /* opacity: 0.8; */
+  /* text-align: justify; */
+}
+.list {
+  font-family: 'Ubuntu';
+  font-size: 1.2rem;
+}
